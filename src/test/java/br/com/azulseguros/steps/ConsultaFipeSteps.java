@@ -30,7 +30,7 @@ public class ConsultaFipeSteps {
     }
 
     @Given("o usuário está logado com um dos perfis Analista")
-    public void o_usuario_esta_logado_com_um_dos_perfis_analista() {
+    public void o_usuário_está_logado_com_um_dos_perfis_analista() {
         login.navegarPara(StepData.url);
         login.informarUsername("romulosilva.ilab@azulseguros.com.br.qa");
         login.informarSenha(TestConstants.PASSWORD);
@@ -39,7 +39,7 @@ public class ConsultaFipeSteps {
     }
 
     @Given("o usuário está logado com um dos perfis Auditor")
-    public void o_usuario_esta_logado_com_um_dos_perfis_auditor() {
+    public void o_usuário_está_logado_com_um_dos_perfis_auditor() {
         login.navegarPara(StepData.url);
         login.informarUsername("romulosilva.ilab@azulseguros.com.br.qa");
         login.informarSenha(TestConstants.PASSWORD);
@@ -48,7 +48,7 @@ public class ConsultaFipeSteps {
     }
 
     @Given("o usuário está logado com um dos perfis Atendimento")
-    public void o_usuario_esta_logado_com_um_dos_perfis_atendimento() {
+    public void o_usuário_está_logado_com_um_dos_perfis_atendimento() {
         login.navegarPara(StepData.url);
         login.informarUsername("romulosilva.ilab@azulseguros.com.br.qa");
         login.informarSenha(TestConstants.PASSWORD);
@@ -57,7 +57,7 @@ public class ConsultaFipeSteps {
     }
 
     @Given("o usuário está logado com um dos perfis Atendimento chat")
-    public void o_usuario_esta_logado_com_um_dos_perfis_atendimento_chat() {
+    public void o_usuário_está_logado_com_um_dos_perfis_atendimento_chat() {
         login.navegarPara(StepData.url);
         login.informarUsername("romulosilva.ilab@azulseguros.com.br.qa");
         login.informarSenha(TestConstants.PASSWORD);
@@ -66,7 +66,7 @@ public class ConsultaFipeSteps {
     }
 
     @Given("o usuário está logado com um dos perfis Backoffice")
-    public void o_usuario_esta_logado_com_um_dos_perfis_backoffice() {
+    public void o_usuário_está_logado_com_um_dos_perfis_backoffice() {
         login.navegarPara(StepData.url);
         login.informarUsername("romulosilva.ilab@azulseguros.com.br.qa");
         login.informarSenha(TestConstants.PASSWORD);
@@ -75,7 +75,7 @@ public class ConsultaFipeSteps {
     }
 
     @Given("o usuário está logado com um dos perfis Monitor Qualidade")
-    public void o_usuario_esta_logado_com_um_dos_perfis_monitor_qualidade() {
+    public void o_usuário_está_logado_com_um_dos_perfis_monitor_qualidade() {
         login.navegarPara(StepData.url);
         login.informarUsername("romulosilva.ilab@azulseguros.com.br.qa");
         login.informarSenha(TestConstants.PASSWORD);
@@ -84,7 +84,7 @@ public class ConsultaFipeSteps {
     }
 
     @Given("o usuário está logado com um dos perfis Promotor")
-    public void o_usuario_esta_logado_com_um_dos_perfis_promotor() {
+    public void o_usuário_está_logado_com_um_dos_perfis_promotor() {
         login.navegarPara(StepData.url);
         login.informarUsername("romulosilva.ilab@azulseguros.com.br.qa");
         login.informarSenha(TestConstants.PASSWORD);
@@ -93,7 +93,7 @@ public class ConsultaFipeSteps {
     }
 
     @Given("o usuário está logado com um dos perfis Sinistro Regulação")
-    public void o_usuario_esta_logado_com_um_dos_perfis_sinistro_regulacao() {
+    public void o_usuário_está_logado_com_um_dos_perfis_sinistro_regulacao() {
         login.navegarPara(StepData.url);
         login.informarUsername("romulosilva.ilab@azulseguros.com.br.qa");
         login.informarSenha(TestConstants.PASSWORD);
@@ -102,7 +102,7 @@ public class ConsultaFipeSteps {
     }
 
     @Given("o usuário está logado com um dos perfis Supervisor")
-    public void o_usuario_esta_logado_com_um_dos_perfis_supervisor() {
+    public void o_usuário_está_logado_com_um_dos_perfis_supervisor() {
         login.navegarPara(StepData.url);
         login.informarUsername("romulosilva.ilab@azulseguros.com.br.qa");
         login.informarSenha(TestConstants.PASSWORD);
@@ -111,7 +111,7 @@ public class ConsultaFipeSteps {
     }
 
     @Given("o usuário está logado com um dos perfis Supervisor Live chat")
-    public void o_usuario_esta_logado_com_um_dos_perfis_supervisor_live_chat() {
+    public void o_usuário_está_logado_com_um_dos_perfis_supervisor_live_chat() {
         login.navegarPara(StepData.url);
         login.informarUsername("romulosilva.ilab@azulseguros.com.br.qa");
         login.informarSenha(TestConstants.PASSWORD);
@@ -120,7 +120,7 @@ public class ConsultaFipeSteps {
     }
 
     @Given("o usuário está logado com um dos perfis Integração SF")
-    public void o_usuario_esta_logado_com_um_dos_perfis_integracao_sf() {
+    public void o_usuário_está_logado_com_um_dos_perfis_integração_sf() {
         login.navegarPara(StepData.url);
         login.informarUsername("romulosilva.ilab@azulseguros.com.br.qa");
         login.informarSenha(TestConstants.PASSWORD);
@@ -141,14 +141,14 @@ public class ConsultaFipeSteps {
     }
 
     @When("o usuário clicar na Guia Consulta FIPE")
-    public void o_usuario_clicar_na_guia_consulta_fipe() {
+    public void o_usuário_clicar_na_guia_consulta_fipe() {
         menu.acionarBotaoMenuNavegacao();
         menu.acionarBotaoConsultaFipe();
         
     }
 
     @Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
-    public void o_sistema_devera_validar_se_os_campos_e_estao_retornando_ou_na_listagem_e_na_pagina_de_detalhes_da_guia_consulta_fipe(String string,
+    public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string,
             String string2, String string3, String string4) {
         // string1 = Aceita veículos novos
         // string 2 = Vidros
