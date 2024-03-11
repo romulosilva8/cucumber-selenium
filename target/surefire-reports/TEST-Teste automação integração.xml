@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Teste automação integração" time="36.104" tests="13" errors="13" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Romulo\git\cucumber-selenium\target\test-classes;C:\Users\Romulo\git\cucumber-selenium\target\classes;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\Romulo\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\Romulo\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Romulo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Romulo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Romulo\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\Romulo\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\Romulo\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\Romulo\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\Romulo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\Romulo\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\Romulo\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\Romulo\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Romulo\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\Romulo\.m2\repository\com\github\stephenc\monte\monte-screen-recorder\0.7.7.0\monte-screen-recorder-0.7.7.0.jar;C:\Users\Romulo\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\Romulo\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Romulo\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Romulo\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Romulo\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Romulo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Romulo\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\Romulo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Romulo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Romulo\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Romulo\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Romulo\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Romulo\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Romulo\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Romulo\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Romulo\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Romulo\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Romulo\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Romulo\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Romulo\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Romulo\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Romulo\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Romulo\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Romulo\.m2\repository\ch\qos\logback\logback-classic\1.2.6\logback-classic-1.2.6.jar;C:\Users\Romulo\.m2\repository\ch\qos\logback\logback-core\1.2.6\logback-core-1.2.6.jar;C:\Users\Romulo\.m2\repository\com\github\librepdf\openpdf\1.3.42\openpdf-1.3.42.jar;C:\Users\Romulo\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Romulo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Romulo\AppData\Local\Temp\surefire3356152511439280522\surefirebooter1206003011424097435.jar C:\Users\Romulo\AppData\Local\Temp\surefire3356152511439280522 2024-03-11T18-15-54_244-jvmRun1 surefire1716707926930256140tmp surefire_010636855904225966603tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Romulo\git\cucumber-selenium\target\test-classes;C:\Users\Romulo\git\cucumber-selenium\target\classes;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\Romulo\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\Romulo\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Romulo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Romulo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Romulo\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\Romulo\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\Romulo\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\Romulo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\Romulo\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\Romulo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\Romulo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\Romulo\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\Romulo\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\Romulo\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\Romulo\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Romulo\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\Romulo\.m2\repository\com\github\stephenc\monte\monte-screen-recorder\0.7.7.0\monte-screen-recorder-0.7.7.0.jar;C:\Users\Romulo\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\Romulo\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Romulo\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Romulo\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Romulo\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Romulo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Romulo\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\Romulo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Romulo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Romulo\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Romulo\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Romulo\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Romulo\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Romulo\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Romulo\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Romulo\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Romulo\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Romulo\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Romulo\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Romulo\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Romulo\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Romulo\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Romulo\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Romulo\.m2\repository\ch\qos\logback\logback-classic\1.2.6\logback-classic-1.2.6.jar;C:\Users\Romulo\.m2\repository\ch\qos\logback\logback-core\1.2.6\logback-core-1.2.6.jar;C:\Users\Romulo\.m2\repository\com\github\librepdf\openpdf\1.3.42\openpdf-1.3.42.jar;C:\Users\Romulo\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Romulo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Romulo"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Romulo\git\cucumber-selenium"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Romulo\AppData\Local\Temp\surefire3356152511439280522\surefirebooter1206003011424097435.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="Romulo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Romulo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Romulo\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Users\Romulo\git\cucumber-selenium"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Romulo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Romulo\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Ferramentas\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\System32\OpenSSH;C:\Users\Romulo\.ssh;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Romulo\AppData\Local\Microsoft\WindowsApps;C:\Users\Romulo\.dotnet\tools;C:\Users\Romulo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\Romulo\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="Teste automação integração #1" classname="Teste automação integração" time="5.867">
+    <error message="The step &apos;o usuário está logado com um dos perfis Analista&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;o usuário está logado com um dos perfis Analista&quot;)&#10;public void o_usuário_está_logado_com_um_dos_perfis_analista() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;o usuário clicar na Guia Consulta FIPE&quot;)&#10;public void o_usuário_clicar_na_guia_consulta_fipe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE&quot;)&#10;public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Analista' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Analista")
+public void o_usuário_está_logado_com_um_dos_perfis_analista() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[18:15:57.028 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.6.3
+18:15:57.744 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=122 in cache (valid until 18:55:56 11/03/2024 BRT)
+18:15:57.746 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome122=122.0.6261.111 in cache (valid until 16:23:43 12/03/2024 BRT)
+18:15:57.747 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 122.0.6261.111 (resolved driver for Chrome 122)
+18:15:57.785 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 122.0.6261.111 found in cache
+18:15:57.786 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Romulo\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="Teste automação integração #2" classname="Teste automação integração" time="2.771">
+    <error message="The step &apos;o usuário está logado com um dos perfis Auditor&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;o usuário está logado com um dos perfis Auditor&quot;)&#10;public void o_usuário_está_logado_com_um_dos_perfis_auditor() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;o usuário clicar na Guia Consulta FIPE&quot;)&#10;public void o_usuário_clicar_na_guia_consulta_fipe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE&quot;)&#10;public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Auditor' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Auditor")
+public void o_usuário_está_logado_com_um_dos_perfis_auditor() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[18:16:02.589 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.6.3
+18:16:02.614 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=122 in cache (valid until 18:55:56 11/03/2024 BRT)
+18:16:02.615 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome122=122.0.6261.111 in cache (valid until 16:23:43 12/03/2024 BRT)
+18:16:02.615 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 122.0.6261.111 (resolved driver for Chrome 122)
+18:16:02.629 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 122.0.6261.111 found in cache
+18:16:02.630 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Romulo\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="Teste automação integração #3" classname="Teste automação integração" time="2.418">
+    <error message="The step &apos;o usuário está logado com um dos perfis Atendimento&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;o usuário está logado com um dos perfis Atendimento&quot;)&#10;public void o_usuário_está_logado_com_um_dos_perfis_atendimento() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;o usuário clicar na Guia Consulta FIPE&quot;)&#10;public void o_usuário_clicar_na_guia_consulta_fipe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE&quot;)&#10;public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Atendimento' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Atendimento")
+public void o_usuário_está_logado_com_um_dos_perfis_atendimento() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[18:16:05.356 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.6.3
+18:16:05.375 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=122 in cache (valid until 18:55:56 11/03/2024 BRT)
+18:16:05.375 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome122=122.0.6261.111 in cache (valid until 16:23:43 12/03/2024 BRT)
+18:16:05.377 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 122.0.6261.111 (resolved driver for Chrome 122)
+18:16:05.387 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 122.0.6261.111 found in cache
+18:16:05.388 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Romulo\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="Teste automação integração #4" classname="Teste automação integração" time="2.285">
+    <error message="The step &apos;o usuário está logado com um dos perfis Atendimento chat&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;o usuário está logado com um dos perfis Atendimento chat&quot;)&#10;public void o_usuário_está_logado_com_um_dos_perfis_atendimento_chat() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;o usuário clicar na Guia Consulta FIPE&quot;)&#10;public void o_usuário_clicar_na_guia_consulta_fipe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE&quot;)&#10;public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Atendimento chat' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Atendimento chat")
+public void o_usuário_está_logado_com_um_dos_perfis_atendimento_chat() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[18:16:07.779 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.6.3
+18:16:07.795 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=122 in cache (valid until 18:55:56 11/03/2024 BRT)
+18:16:07.796 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome122=122.0.6261.111 in cache (valid until 16:23:43 12/03/2024 BRT)
+18:16:07.796 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 122.0.6261.111 (resolved driver for Chrome 122)
+18:16:07.805 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 122.0.6261.111 found in cache
+18:16:07.806 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Romulo\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="Teste automação integração #5" classname="Teste automação integração" time="2.293">
+    <error message="The step &apos;o usuário está logado com um dos perfis Backoffice&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;o usuário está logado com um dos perfis Backoffice&quot;)&#10;public void o_usuário_está_logado_com_um_dos_perfis_backoffice() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;o usuário clicar na Guia Consulta FIPE&quot;)&#10;public void o_usuário_clicar_na_guia_consulta_fipe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE&quot;)&#10;public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Backoffice' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Backoffice")
+public void o_usuário_está_logado_com_um_dos_perfis_backoffice() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[18:16:10.054 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.6.3
+18:16:10.066 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=122 in cache (valid until 18:55:56 11/03/2024 BRT)
+18:16:10.067 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome122=122.0.6261.111 in cache (valid until 16:23:43 12/03/2024 BRT)
+18:16:10.067 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 122.0.6261.111 (resolved driver for Chrome 122)
+18:16:10.077 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 122.0.6261.111 found in cache
+18:16:10.078 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Romulo\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="Teste automação integração #6" classname="Teste automação integração" time="2.56">
+    <error message="The step &apos;o usuário está logado com um dos perfis Monitor Qualidade&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;o usuário está logado com um dos perfis Monitor Qualidade&quot;)&#10;public void o_usuário_está_logado_com_um_dos_perfis_monitor_qualidade() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;o usuário clicar na Guia Consulta FIPE&quot;)&#10;public void o_usuário_clicar_na_guia_consulta_fipe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE&quot;)&#10;public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Monitor Qualidade' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Monitor Qualidade")
+public void o_usuário_está_logado_com_um_dos_perfis_monitor_qualidade() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[18:16:12.346 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.6.3
+18:16:12.355 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=122 in cache (valid until 18:55:56 11/03/2024 BRT)
+18:16:12.356 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome122=122.0.6261.111 in cache (valid until 16:23:43 12/03/2024 BRT)
+18:16:12.356 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 122.0.6261.111 (resolved driver for Chrome 122)
+18:16:12.364 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 122.0.6261.111 found in cache
+18:16:12.364 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Romulo\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="Teste automação integração #7" classname="Teste automação integração" time="2.622">
+    <error message="The step &apos;o usuário está logado com um dos perfis Monitor Qualidade&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;o usuário está logado com um dos perfis Monitor Qualidade&quot;)&#10;public void o_usuário_está_logado_com_um_dos_perfis_monitor_qualidade() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;o usuário clicar na Guia Consulta FIPE&quot;)&#10;public void o_usuário_clicar_na_guia_consulta_fipe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE&quot;)&#10;public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Monitor Qualidade' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Monitor Qualidade")
+public void o_usuário_está_logado_com_um_dos_perfis_monitor_qualidade() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[18:16:14.907 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.6.3
+18:16:14.919 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=122 in cache (valid until 18:55:56 11/03/2024 BRT)
+18:16:14.920 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome122=122.0.6261.111 in cache (valid until 16:23:43 12/03/2024 BRT)
+18:16:14.920 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 122.0.6261.111 (resolved driver for Chrome 122)
+18:16:14.930 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 122.0.6261.111 found in cache
+18:16:14.931 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Romulo\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="Teste automação integração #8" classname="Teste automação integração" time="2.763">
+    <error message="The step &apos;o usuário está logado com um dos perfis Promotor&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;o usuário está logado com um dos perfis Promotor&quot;)&#10;public void o_usuário_está_logado_com_um_dos_perfis_promotor() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;o usuário clicar na Guia Consulta FIPE&quot;)&#10;public void o_usuário_clicar_na_guia_consulta_fipe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE&quot;)&#10;public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Promotor' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Promotor")
+public void o_usuário_está_logado_com_um_dos_perfis_promotor() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[18:16:17.528 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.6.3
+18:16:17.540 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=122 in cache (valid until 18:55:56 11/03/2024 BRT)
+18:16:17.541 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome122=122.0.6261.111 in cache (valid until 16:23:43 12/03/2024 BRT)
+18:16:17.541 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 122.0.6261.111 (resolved driver for Chrome 122)
+18:16:17.551 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 122.0.6261.111 found in cache
+18:16:17.552 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Romulo\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="Teste automação integração #9" classname="Teste automação integração" time="2.368">
+    <error message="The step &apos;o usuário está logado com um dos perfis Sinistro Regulação&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;o usuário está logado com um dos perfis Sinistro Regulação&quot;)&#10;public void o_usuário_está_logado_com_um_dos_perfis_sinistro_regulação() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;o usuário clicar na Guia Consulta FIPE&quot;)&#10;public void o_usuário_clicar_na_guia_consulta_fipe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE&quot;)&#10;public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Sinistro Regulação' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Sinistro Regulação")
+public void o_usuário_está_logado_com_um_dos_perfis_sinistro_regulação() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[18:16:20.292 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.6.3
+18:16:20.307 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=122 in cache (valid until 18:55:56 11/03/2024 BRT)
+18:16:20.308 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome122=122.0.6261.111 in cache (valid until 16:23:43 12/03/2024 BRT)
+18:16:20.308 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 122.0.6261.111 (resolved driver for Chrome 122)
+18:16:20.316 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 122.0.6261.111 found in cache
+18:16:20.317 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Romulo\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="Teste automação integração #10" classname="Teste automação integração" time="2.364">
+    <error message="The step &apos;o usuário está logado com um dos perfis Supervisor&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;o usuário está logado com um dos perfis Supervisor&quot;)&#10;public void o_usuário_está_logado_com_um_dos_perfis_supervisor() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;o usuário clicar na Guia Consulta FIPE&quot;)&#10;public void o_usuário_clicar_na_guia_consulta_fipe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE&quot;)&#10;public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Supervisor' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Supervisor")
+public void o_usuário_está_logado_com_um_dos_perfis_supervisor() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[18:16:22.655 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.6.3
+18:16:22.668 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=122 in cache (valid until 18:55:56 11/03/2024 BRT)
+18:16:22.669 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome122=122.0.6261.111 in cache (valid until 16:23:43 12/03/2024 BRT)
+18:16:22.669 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 122.0.6261.111 (resolved driver for Chrome 122)
+18:16:22.678 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 122.0.6261.111 found in cache
+18:16:22.679 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Romulo\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="Teste automação integração #11" classname="Teste automação integração" time="2.474">
+    <error message="The step &apos;o usuário está logado com um dos perfis Supervisor Live chat&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;o usuário está logado com um dos perfis Supervisor Live chat&quot;)&#10;public void o_usuário_está_logado_com_um_dos_perfis_supervisor_live_chat() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;o usuário clicar na Guia Consulta FIPE&quot;)&#10;public void o_usuário_clicar_na_guia_consulta_fipe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE&quot;)&#10;public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Supervisor Live chat' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Supervisor Live chat")
+public void o_usuário_está_logado_com_um_dos_perfis_supervisor_live_chat() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[18:16:25.023 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.6.3
+18:16:25.038 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=122 in cache (valid until 18:55:56 11/03/2024 BRT)
+18:16:25.039 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome122=122.0.6261.111 in cache (valid until 16:23:43 12/03/2024 BRT)
+18:16:25.039 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 122.0.6261.111 (resolved driver for Chrome 122)
+18:16:25.048 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 122.0.6261.111 found in cache
+18:16:25.050 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Romulo\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="Teste automação integração #12" classname="Teste automação integração" time="2.33">
+    <error message="The step &apos;o usuário está logado com um dos perfis Integração SF&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;o usuário está logado com um dos perfis Integração SF&quot;)&#10;public void o_usuário_está_logado_com_um_dos_perfis_integração_sf() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;o usuário clicar na Guia Consulta FIPE&quot;)&#10;public void o_usuário_clicar_na_guia_consulta_fipe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE&quot;)&#10;public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Integração SF' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Integração SF")
+public void o_usuário_está_logado_com_um_dos_perfis_integração_sf() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[18:16:27.498 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.6.3
+18:16:27.515 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=122 in cache (valid until 18:55:56 11/03/2024 BRT)
+18:16:27.516 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome122=122.0.6261.111 in cache (valid until 16:23:43 12/03/2024 BRT)
+18:16:27.516 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 122.0.6261.111 (resolved driver for Chrome 122)
+18:16:27.528 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 122.0.6261.111 found in cache
+18:16:27.531 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Romulo\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="Teste automação integração #13" classname="Teste automação integração" time="2.369">
+    <error message="The step &apos;o usuário está logado com um dos perfis Integração SF&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;o usuário está logado com um dos perfis Integração SF&quot;)&#10;public void o_usuário_está_logado_com_um_dos_perfis_integração_sf() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;o usuário clicar na Guia Consulta FIPE&quot;)&#10;public void o_usuário_clicar_na_guia_consulta_fipe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE&quot;)&#10;public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Integração SF' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Integração SF")
+public void o_usuário_está_logado_com_um_dos_perfis_integração_sf() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[18:16:29.824 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.6.3
+18:16:29.832 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=122 in cache (valid until 18:55:56 11/03/2024 BRT)
+18:16:29.833 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome122=122.0.6261.111 in cache (valid until 16:23:43 12/03/2024 BRT)
+18:16:29.833 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 122.0.6261.111 (resolved driver for Chrome 122)
+18:16:29.839 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 122.0.6261.111 found in cache
+18:16:29.840 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Romulo\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -4,8 +4,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>br.com.azulseguros</groupId>
-	<artifactId>salesforcefront</artifactId>
+	<groupId>com.ilab</groupId>
+	<artifactId>cucumber-selenium</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -15,6 +15,7 @@
 		<selenium.version>4.18.1</selenium.version>
 		<junit.version>5.10.1</junit.version>
 		<cucumber.version>7.15.0</cucumber.version>
+		<version.surefire.plugin>2.22.0</version.surefire.plugin>
 	</properties>
 
 	<dependencyManagement>
@@ -100,32 +101,94 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.11.0</version>
+				<version>3.7.0</version>
 				<configuration>
-					<encoding>UTF-8</encoding>
-					<source>1.8</source>
-					<target>1.8</target>
+					<encoding>Cp1252</encoding>
 				</configuration>
 			</plugin>
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.2.2</version> <!-- Certifique-se de usar a versão mais
-				recente -->
+				<version>2.21.0</version>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-clean-plugin</artifactId>
+				<version>3.1.0</version>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.1.0</version>
 				<configuration>
-					<!-- Aqui você pode configurar opções específicas do
-					Surefire, como incluir/excluir testes -->
-					<!-- Por exemplo, para incluir apenas testes que terminam
-					com "Test" -->
-					<includes>
-						<include>**/Test*.java</include>
-					</includes>
-					<!-- Ou para excluir testes específicos -->
-					<!-- <excludes>
-                    <exclude>**/NotNeededTest.java</exclude>
-                </excludes> -->
+					<encoding>ISO-8859-1</encoding>
+					<maven.resources.overwrite>true</maven.resources.overwrite>
 				</configuration>
 			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+				<version>3.1.1</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${version.surefire.plugin}</version>
+				<dependencies>
+					<!-- Dependência necessária para que seja possível identificar os testes 
+						como JUnit 4 -->
+					<dependency>
+						<groupId>org.apache.maven.surefire</groupId>
+						<artifactId>surefire-junit47</artifactId>
+						<version>${version.surefire.plugin}</version>
+					</dependency>
+				</dependencies>
+				<configuration>
+
+					<testFailureIgnore>true</testFailureIgnore>
+					<!-- Identificar os testse que não estão com nomenclatura padrão -->
+					<includes>
+						<include>**/**.java</include>
+					</includes>
+
+				</configuration>
+			</plugin>
+
+			<!-- Post-Man plugin -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>2.11</version>
+				<configuration>
+					<reportsDirectory>${user.dir}/</reportsDirectory>
+					<outputDirectory>${user.dir}/</outputDirectory>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<compilerId>javac</compilerId>
+				</configuration>
+			</plugin>
+
 		</plugins>
 	</build>
 </project>

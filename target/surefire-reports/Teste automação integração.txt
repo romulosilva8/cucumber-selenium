@@ -1,0 +1,290 @@
+-------------------------------------------------------------------------------
+Test set: Teste automação integração
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 36.104 s <<< FAILURE! - in Teste automação integração
+Teste automação integração #1(Teste automação integração)  Time elapsed: 5.867 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Analista' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Analista")
+public void o_usuário_está_logado_com_um_dos_perfis_analista() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Teste automação integração #2(Teste automação integração)  Time elapsed: 2.771 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Auditor' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Auditor")
+public void o_usuário_está_logado_com_um_dos_perfis_auditor() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Teste automação integração #3(Teste automação integração)  Time elapsed: 2.418 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Atendimento' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Atendimento")
+public void o_usuário_está_logado_com_um_dos_perfis_atendimento() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Teste automação integração #4(Teste automação integração)  Time elapsed: 2.285 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Atendimento chat' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Atendimento chat")
+public void o_usuário_está_logado_com_um_dos_perfis_atendimento_chat() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Teste automação integração #5(Teste automação integração)  Time elapsed: 2.293 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Backoffice' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Backoffice")
+public void o_usuário_está_logado_com_um_dos_perfis_backoffice() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Teste automação integração #6(Teste automação integração)  Time elapsed: 2.56 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Monitor Qualidade' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Monitor Qualidade")
+public void o_usuário_está_logado_com_um_dos_perfis_monitor_qualidade() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Teste automação integração #7(Teste automação integração)  Time elapsed: 2.622 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Monitor Qualidade' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Monitor Qualidade")
+public void o_usuário_está_logado_com_um_dos_perfis_monitor_qualidade() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Teste automação integração #8(Teste automação integração)  Time elapsed: 2.763 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Promotor' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Promotor")
+public void o_usuário_está_logado_com_um_dos_perfis_promotor() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Teste automação integração #9(Teste automação integração)  Time elapsed: 2.368 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Sinistro Regulação' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Sinistro Regulação")
+public void o_usuário_está_logado_com_um_dos_perfis_sinistro_regulação() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Teste automação integração #10(Teste automação integração)  Time elapsed: 2.364 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Supervisor' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Supervisor")
+public void o_usuário_está_logado_com_um_dos_perfis_supervisor() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Teste automação integração #11(Teste automação integração)  Time elapsed: 2.474 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Supervisor Live chat' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Supervisor Live chat")
+public void o_usuário_está_logado_com_um_dos_perfis_supervisor_live_chat() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Teste automação integração #12(Teste automação integração)  Time elapsed: 2.33 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Integração SF' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Integração SF")
+public void o_usuário_está_logado_com_um_dos_perfis_integração_sf() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Teste automação integração #13(Teste automação integração)  Time elapsed: 2.369 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'o usuário está logado com um dos perfis Integração SF' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("o usuário está logado com um dos perfis Integração SF")
+public void o_usuário_está_logado_com_um_dos_perfis_integração_sf() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o usuário clicar na Guia Consulta FIPE")
+public void o_usuário_clicar_na_guia_consulta_fipe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("o sistema deverá validar se os campos {string} e {string} estão retornando {string} ou {string} na listagem e na página de Detalhes da Guia Consulta FIPE")
+public void o_sistema_deverá_validar_se_os_campos_e_estão_retornando_ou_na_listagem_e_na_página_de_detalhes_da_guia_consulta_fipe(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
