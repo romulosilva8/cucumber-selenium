@@ -2,6 +2,9 @@ package br.com.azulseguros.steps;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+
 import br.com.azulseguros.pageobjects.sistema.ConsultaFipePage;
 import br.com.azulseguros.pageobjects.sistema.HeaderPage;
 import br.com.azulseguros.pageobjects.sistema.LoginPage;
@@ -9,10 +12,10 @@ import br.com.azulseguros.pageobjects.sistema.MenuPage;
 import br.com.azulseguros.utils.ScreenshotUtils;
 import br.com.azulseguros.utils.SleepLevel;
 import br.com.azulseguros.utils.TestConstants;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.messages.types.Scenario;
 
 public class ConsultaFipeSteps {
 
@@ -34,6 +37,8 @@ public class ConsultaFipeSteps {
         login.navegarPara(StepData.url);
         login.informarUsername("romulosilva.ilab@azulseguros.com.br.qa");
         login.informarSenha(TestConstants.PASSWORD);
+        byte[] screenshot = ((TakesScreenshot) StepData.driver).getScreenshotAs(OutputType.BYTES);
+        scenario.attach(screenshot, "image/png", "Pagina Login");
         ScreenshotUtils.captureScreenshot(StepData.driver, "o usuário está logado com um dos perfis Analista");
         login.acionarBotaoLogin();
     }
@@ -70,6 +75,8 @@ public class ConsultaFipeSteps {
         login.navegarPara(StepData.url);
         login.informarUsername("romulosilva.ilab@azulseguros.com.br.qa");
         login.informarSenha(TestConstants.PASSWORD);
+        byte[] screenshot = ((TakesScreenshot) StepData.driver).getScreenshotAs(OutputType.BYTES);
+        scenario.attach(screenshot, "image/png", "Pagina Login");
         ScreenshotUtils.captureScreenshot(StepData.driver, "o usuário está logado com um dos perfis Backoffice");
         login.acionarBotaoLogin();
     }
